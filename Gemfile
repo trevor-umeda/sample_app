@@ -3,10 +3,11 @@ source 'http://rubygems.org'
 gem 'rails', '3.0.5'
 gem 'sqlite3-ruby', '1.3.2', :require => 'sqlite3'
 gem 'gravatar_image_tag', '1.0.0.pre2'
+gem "rake", "0.8.7"
 
 group :development do
   gem 'rspec-rails', '2.5.0'
-  gem 'annotate-models', '1.0.4'
+  gem 'annotate', '2.4.0'
 end
 
 group :test do
