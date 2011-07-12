@@ -25,3 +25,9 @@ REQUESTING PAGE: POST /sessions with {"commit"=>"Sign in", "session"=>{"password
 REQUESTING PAGE: GET /users/3/edit with {} and HTTP headers {}
 REQUESTING PAGE: GET http://www.example.com/signin with {} and HTTP headers {"HTTP_REFERER"=>"/users/3/edit"}
 REQUESTING PAGE: POST /sessions with {"commit"=>"Sign in", "session"=>{"password"=>"foobar", "email"=>"mhartl@example.com"}, "utf8"=>"✓"} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/signin"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"commit"=>"Sign in", "session"=>{"password"=>"foobar", "email"=>"mhartl@example.com"}, "utf8"=>"✓"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"commit"=>"Sign in", "session"=>{"password"=>"foobar", "email"=>"mhartl@example.com"}, "utf8"=>"✓"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
